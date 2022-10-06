@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Tarea1_Area/style.css">
+    <title>Calculador de Área</title>
+</head>
+<body>
+    <h1>Calculador de Área</h1>
+    <h3>¿Qué tipo de figura quieres calcular?</h3>
+    <div>
+    <form action="">
+        <select name="figurasGeometricas" id="figurasGeometricas">
+            <option value="cuadrado">Cuadrado</option>
+            <option value="rectangulo">Rectángulo</option>
+            <option value="triangulo">Triángulo</option>
+            <option value="rombo">Rombo</option>
+            <option value="circulo">Círculo</option>
+        </select>
+        <input type="submit" id="seleccionar" value="Seleccionar">
+    </form>
+    </div>
+
+    <div>
+        <form action="" id="dimensiones">
+            <label for="lado">Lado:</label>
+            <input type="text" id="lado">
+            <label for="lado">Altura:</label>
+            <input type="text" id="altura">
+            <label for="lado">Radio:</label>
+            <input type="text" id="radio">
+            <input type="submit" id="calcular" value="Calcular">
+        </form>
+    </div>
+    <div>
+        <p id="area"></p>
+    </div>
+
+    <script src="/Tarea1_Area/area.js"></script>
+</body>
+</html>

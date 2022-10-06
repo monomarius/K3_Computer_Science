@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>En una galaxia muy muy lejana</title>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/Proyecto_Final/style.css" />
+    <script src="/Proyecto_Final/swapi.js" ></script>
+  </head>
+  <header>
+    <img src="/Proyecto_Final/img/Star-Wars-Logo.png"  width="250px">
+  <h1>Busca tu personaje favorito de Star Wars</h1>
+</header>
+  <body>
+  <div>
+      <input id="input_character_name" placeholder="Introduce personaje..."/>
+      <button onclick="search_character_button_click()" id="myBtn" class="button">
+        Buscar
+      </button>
+      <br>
+    </div>
+      <div>
+        <br><br>
+        <div id="container" class="parent"></div>
+      </div>
+    </div>
+    <audio autoplay id="myaudio">
+    </audio>
+    <script src="/Proyecto_Final/script.js" ></script>
+  </body>
+</html>

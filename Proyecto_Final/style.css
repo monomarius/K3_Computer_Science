@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/Proyecto_Final/img/back.jpg);
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: goldenrod;
+    font-size: 32px;
+    padding: 10px;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+input{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button{
+    background-color: rgb(218, 165, 32);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.button:hover{
+    background-color: rgb(186, 140, 23)
+}
+
+.button:active{
+    transform: translateY(4px);
+}
+
+.parent {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 300px;
+    margin: 5px;
+    }
+
+.child {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    }
+
+.child:hover {
+    background-color: rgba(218, 165, 32, 0.5);
+    align-self: center;
+    transform: matrix3d();
+}
+
+.image{
+    border-radius: 50%;
+}
